@@ -1,0 +1,109 @@
+#ContactUs{
+    height: 75vh;
+    width: 100%;
+    background-color: #F3AF88;
+    /* background-color: #FAC59F; */
+}
+
+.livraison{
+    width: 100%;
+    height: 20%;
+    background-color: #F3AF88;
+    display: flex;
+    font-size: 19px;
+    /* justify-content: space-evenly; */
+}
+#deliv{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#payment{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border-radius: 0px 250px 0px  0px;
+    background-color: #FAC59F;
+}
+#foot1{
+    height: 90%;
+    width: 25%;
+    /* background-color: azure; */
+}
+#foot2{
+    height: 90%;
+    width: 25%;
+    /* background-color: azure;   */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-weight: bold;
+}
+#foot2 ul{
+    /* background-color: rgb(156, 189, 67); */
+    width: 40%;
+    height: 60%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#foot2 li{
+    /* background-color:yellow; */
+    height: 20%;
+}
+#foot2 a{
+    /* color: rgb(161, 159, 159); */
+}
+#foot3{
+    height: 90%;
+    width: 25%;
+    /* background-color: azure;     */
+}
+#foot3 p{
+    font-weight: bold;
+}
+#req{
+    /* background-color:red; */
+    height: 78%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#req textarea{
+    width: 80%;
+    height: 30%;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+}
+#req button{
+    width: 40%;
+    height: 12%;
+    border-radius: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    border: 1px solid #F3AF88;
+    font-size: 18px;
+    letter-spacing:1px;
+}
+#req button:hover{
+    background-color: #F3AF88;
+    color: white;
+    transition:1.5s;
+    cursor: pointer;
+}

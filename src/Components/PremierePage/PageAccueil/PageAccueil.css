@@ -1,0 +1,131 @@
+.Home{
+    width:100%;
+    height:85vh;
+    /* background-color: #A4BB94; */
+    background-color: #FAC59F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#AccueilContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+    height:85%;
+    /* background-color: rgb(90, 86, 86); */
+}
+#Aidepart{
+    width:2.5%;
+    height:4%;
+    position: fixed;
+    top:35px;
+    right: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+}
+#partDesc{
+    width:40%;
+    height:90%;
+    /* background-color: white; */
+}
+#partDesc a{
+    height:12%;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    position: relative;
+    left:250px;
+    animation: blinker 3s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+#partDesc a:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+#partPhoto{
+    width: 50%;
+    height:90%;
+    display: flex;
+    align-items:flex-end;
+    
+    /* background-color:rgb(60, 134, 134);    */
+}
+#sahal1{
+    /* background-color: aqua; */
+    width: 100%;
+    height:90%;
+    background-image: url(crepe2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Desc1{
+    height:85%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 35px;
+}
+.Desc1 h4{
+    /* color: red; */
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+}
+.Desc1 p{
+    /* color: green; */
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+  font-family: 'Oleo Script Swash Caps', cursive;
+    padding-left: 40px;
+}
+.Desc1 h5{
+    padding-left: 90px;
+    font-size: 42px;
+    /* color: #8FB339; */
+}
+.button1{
+    /* background-color:rgb(31, 34, 34); */
+    height:15%;
+    width: 90%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:  center;
+}
+.ScrollBtn{
+    height:65%;
+    width:35%;
+    /* background-color: rgb(216, 135, 135); */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+}
+.ScrollBtn:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1.5s;
+}
+#ScrollIcon{
+    width:40%;
+    height:40%;
+}
